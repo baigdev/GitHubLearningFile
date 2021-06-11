@@ -1,0 +1,54 @@
+=> Git Operations and Commands
+ 1) Downlaoad git for installed os
+ 2) install git.
+ 3) i) check version=> git --version
+
+ mkdir name to make directory=> It will created in Drive C user folder
+
+ cd (dir name)
+ create files/write code in the created folder. 
+ git init=> to initialize git.
+
+ git add filename.extension==>Initialized file in Staging area.
+ git diff =>to view changes.
+ git status=>To check modification status.
+ 
+
+ git commit filename/-a -m'Resto Commit'=> To record snapshots of repository at given time in local repository.
+  
+ Now we have to push these files on a remote repository like github.
+ 
+ 1) create repository
+ 2) copy repository link 
+ 3) add remote repository=>git remote add <repository name> <repository url>
+ 4) git push repo name
+ 5) git push repo name master
+ 
+ 6) git branch <branch name> =>to create branch.
+ ==>to shift branches ==>git checkout <branch name>
+ Now changes that are happening at new branch willn't be tracked or noticed on master branch.
+ For That:
+ We have to merge both repositories.
+ Commands:
+ git checkout master
+ git add <filename with extension>
+ Now check changes:
+ git diff.
+
+ Now Merging Two Branches:
+ git merge <file name>
+ git merge tool (Solves merging conflict issue)
+ 
+ 
+
+
+GitHUb Commands By Abdul Basit:
+
+1) create folder
+2) create file in that folder
+3)=>Smart git =>add or create repo=>paste folder path==>this will initialize git (view ==>hidden folder check)
+4)add(for staging) then commit (for recordig snapshot)
+
+
+ 
+    
